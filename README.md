@@ -65,7 +65,7 @@ streamlit run moneyrebirth_dashboard.py
 
 インストール不要。ブラウザでCSV/PDFをアップロードするだけで即解析。
 
-👉 **[今すぐ試す（Streamlit Cloud）](https://moneyrebirthcloud.streamlit.app)**
+👉 **[今すぐ試す（Streamlit Cloud）](https://moneyrebirth.streamlit.app)**
 
 ```bash
 # ローカルで試す場合
