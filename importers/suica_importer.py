@@ -116,9 +116,9 @@ def import_suica(pdf_path: str) -> tuple[int, int, int]:
 
             if not parsed["amount_raw"]:
                 continue
-            amount_abs = int(parsed["amount_raw"].replace(",", "").replace("+", ""))
-            amount     = type_info["sign"] * amount_abs
 
+            amount_val = int(parsed["amount_raw"].replace(",", ""))
+            amount     = amount_val
             desc = type_info["desc"]
             if parsed["station"]:
                 desc = f"{desc}（{parsed['station']}）"

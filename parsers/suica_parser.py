@@ -90,8 +90,9 @@ def parse_suica(raw: bytes) -> pd.DataFrame:
 
         if not parsed["amount_raw"]:
             continue
-        amount_abs = int(parsed["amount_raw"].replace(",", "").replace("+", ""))
-        amount     = type_info["sign"] * amount_abs
+
+        amount_val = int(parsed["amount_raw"].replace(",", ""))
+        amount = amount_val  # CSVの符号をそのまま使う
 
         desc = type_info["desc"]
         if parsed["station"]:
