@@ -25,3 +25,4 @@ venv/
 
 # Streamlit
 .streamlit/
+categories.txt
