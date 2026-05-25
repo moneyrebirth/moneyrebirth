@@ -117,9 +117,6 @@ cp categories_sample.txt categories.txt
 ```
 
 生成された`categories.txt`は手入力ページのカテゴリとして使用されます。
-```bash
-
-```
 
 ### 起動
 
