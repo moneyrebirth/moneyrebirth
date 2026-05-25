@@ -10,8 +10,7 @@
 
 ## 📸 スクリーンショット
 
-![月次レビュー](docs/demo_monthly_review.png)
-![ポートフォリオ](docs/demo_portfolio.png)
+![デモ](docs/demo.gif)
 
 ---
 
@@ -248,7 +247,7 @@ portfolios    — 資産スナップショット（月次）
 - [x] 資産推移・ポートフォリオグラフ
 - [x] 月次レビュー・年次サマリー
 - [x] 手入力（現金支出の記録・編集・削除）
-- [x] Streamlit Cloudクラウド版
+- [x] **V1.1** Streamlit Cloudクラウド版
 - [ ] **v2**: 財布機能・手入力との残高連携
 - [ ] **v2**: レシート撮影による自動入力（Claude Vision API活用）
 - [ ] **v2**: カテゴリ自動分類（AI活用）
