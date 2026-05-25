@@ -103,11 +103,22 @@ pip install -r requirements.txt
 
 ### カテゴリファイルの生成（初回のみ）
 
-```bash
-# DBからカテゴリを自動生成
-python3 moneyrebirth-pickupcategories.py
+**MoneyForwardユーザーの場合**
 
-# 生成された categories.txt を必要に応じて編集
+```bash
+python3 moneyrebirth-pickupcategories.py
+# データベースから自動作成
+```
+
+**それ以外の方**
+```bash
+cp categories_sample.txt categories.txt
+# 必要に応じて編集
+```
+
+生成された`categories.txt`は手入力ページのカテゴリとして使用されます。
+```bash
+
 ```
 
 ### 起動
