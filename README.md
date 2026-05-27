@@ -269,6 +269,11 @@ portfolios    — 資産スナップショット（月次）
 
 ---
 
+## 📝 記事
+- [【Python×Claude】金融データを自分の手に取り戻す。3日で家計簿アプリ「MoneyRebirth」を作った話](https://zenn.dev/dai610/articles/7c03c57176a90f)
+
+---
+
 ## 📄 ライセンス
 
 MIT License
